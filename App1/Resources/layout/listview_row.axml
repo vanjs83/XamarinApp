@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:columnCount="2"
+	android:background="#2E8B57"
+	>
+
+	  <TextView
+	 	android:text="Name fuel"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginLeft="10dp" 
+	    android:layout_row="0"
+        android:layout_column="0"
+		android:id="@+id/textViewName" 
+		android:textColor="#000000"
+	/>
+	  <TextView
+		android:text="Liter"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/textViewCount"
+		android:textAlignment="viewEnd" 
+		android:layout_marginRight="30dp" 
+	    android:layout_column="0"
+		android:layout_row="0"
+		android:textColor="#000000"
+	/>
+
+
+   </GridLayout>

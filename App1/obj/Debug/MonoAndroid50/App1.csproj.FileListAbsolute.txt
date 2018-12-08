@@ -1,0 +1,2 @@
+E:\Xamarin\App1\App1\obj\Debug\MonoAndroid50\App1.csprojAssemblyReference.cache
+E:\Xamarin\App1\App1\obj\Debug\MonoAndroid50\res.flag
